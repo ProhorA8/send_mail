@@ -1,0 +1,20 @@
+<p>
+  <strong>Code:</strong>
+  <%= @user.code %>
+</p>
+<p>
+  <strong>Email:</strong>
+  <%= @user.email %>
+</p>
+<p>
+  <strong>Entity:</strong>
+  <%= @user.entity %>
+</p>
+<p>
+  <strong>Type:</strong>
+  <%= @user.report_type %>
+</p>
+
+<%= link_to 'Send report', :controller => 'users', :action => 'send_report_mail', :id => @user.id %> |
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>

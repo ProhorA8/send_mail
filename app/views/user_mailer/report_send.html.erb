@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+
+    <p>
+      <%= @user.code %>. Guest: <%= @user.email %>. Confirmed <%= @user.entity %> at '<%= @user.created_at.strftime('%Y-%m-%d %H:%M:%S') %>'
+    </p>
+    <p>
+      <%= @user.code %>. Guest: <%= @user.email %>. Modified <%= @user.entity %> at '<%= @user.updated_at.strftime('%Y-%m-%d %H:%M:%S') %>'
+    </p>
+  </body>
+</html>
