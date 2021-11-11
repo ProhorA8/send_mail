@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require 'rails_helper'
 
 RSpec.describe UsersController, type: :controller do
@@ -24,7 +22,6 @@ RSpec.describe UsersController, type: :controller do
 
   context 'GET #show' do
     subject { get :show, params: { id: user.id } }
-    # user = assigns(:user)
 
     it 'returns a 200 OK status' do
       expect(subject).to have_http_status(:ok)
@@ -37,15 +34,17 @@ RSpec.describe UsersController, type: :controller do
     end
   end
 
-  # context 'POST #create' do
-  #   it 'should user creation' do
-  #     post :create
-  #
-  #     # user = assigns(:user)
-  #     expect(response).to render_template(:new)
-  #     expect(subject).to render_template("index")
-  #     # expect(response).to redirect_to(user_path(user))
-  #     # expect(flash[:notice]).to be
-  #   end
-  # end
+  context 'POST #create' do
+    # it 'should user creation' do
+    #   post :create, params: {
+    # code: 'A-001', email: 'test@gmial.com', entity: 'reservation', report_type: 'Confirmed'
+    # }
+    #
+    #   # user = assigns(:user)
+    #   expect(response).to render_template(:new)
+    #   expect(subject).to render_template("index")
+    #   # expect(response).to redirect_to(user_path(user))
+    #   # expect(flash[:notice]).to be
+    # end
+  end
 end
