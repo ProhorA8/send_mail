@@ -1,0 +1,15 @@
+current directory: /Users/macintosh/Тестовые/test_mail/vendor/bundle/ruby/2.3.0/gems/bootsnap-1.9.1/ext/bootsnap
+/Users/macintosh/.rbenv/versions/2.3.1/bin/ruby -I /Users/macintosh/.rbenv/versions/2.3.1/lib/ruby/site_ruby/2.3.0 -r ./siteconf20211110-7978-13vz1rq.rb extconf.rb
+creating Makefile
+
+current directory: /Users/macintosh/Тестовые/test_mail/vendor/bundle/ruby/2.3.0/gems/bootsnap-1.9.1/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: /Users/macintosh/Тестовые/test_mail/vendor/bundle/ruby/2.3.0/gems/bootsnap-1.9.1/ext/bootsnap
+make DESTDIR\=
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/macintosh/Тестовые/test_mail/vendor/bundle/ruby/2.3.0/gems/bootsnap-1.9.1/ext/bootsnap
+make DESTDIR\= install
+/usr/local/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20211110-7978-46hy1d/bootsnap

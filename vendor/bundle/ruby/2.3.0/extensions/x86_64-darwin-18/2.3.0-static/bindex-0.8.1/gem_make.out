@@ -1,0 +1,15 @@
+current directory: /Users/macintosh/Тестовые/test_mail/vendor/bundle/ruby/2.3.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/macintosh/.rbenv/versions/2.3.1/bin/ruby -I /Users/macintosh/.rbenv/versions/2.3.1/lib/ruby/site_ruby/2.3.0 -r ./siteconf20211110-7978-1ncnz7q.rb extconf.rb
+creating Makefile
+
+current directory: /Users/macintosh/Тестовые/test_mail/vendor/bundle/ruby/2.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= clean
+
+current directory: /Users/macintosh/Тестовые/test_mail/vendor/bundle/ruby/2.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\=
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/macintosh/Тестовые/test_mail/vendor/bundle/ruby/2.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= install
+/usr/local/bin/ginstall -c -m 0755 cruby.bundle ./.gem.20211110-7978-5odru7/skiptrace/internal

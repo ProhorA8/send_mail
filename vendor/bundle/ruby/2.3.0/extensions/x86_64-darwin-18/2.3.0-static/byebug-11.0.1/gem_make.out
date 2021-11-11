@@ -1,0 +1,19 @@
+current directory: /Users/macintosh/Тестовые/test_mail/vendor/bundle/ruby/2.3.0/gems/byebug-11.0.1/ext/byebug
+/Users/macintosh/.rbenv/versions/2.3.1/bin/ruby -I /Users/macintosh/.rbenv/versions/2.3.1/lib/ruby/site_ruby/2.3.0 -r ./siteconf20211110-7978-1ocspbm.rb extconf.rb
+creating Makefile
+
+current directory: /Users/macintosh/Тестовые/test_mail/vendor/bundle/ruby/2.3.0/gems/byebug-11.0.1/ext/byebug
+make DESTDIR\= clean
+
+current directory: /Users/macintosh/Тестовые/test_mail/vendor/bundle/ruby/2.3.0/gems/byebug-11.0.1/ext/byebug
+make DESTDIR\=
+compiling locker.c
+compiling byebug.c
+compiling context.c
+compiling breakpoint.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/macintosh/Тестовые/test_mail/vendor/bundle/ruby/2.3.0/gems/byebug-11.0.1/ext/byebug
+make DESTDIR\= install
+/usr/local/bin/ginstall -c -m 0755 byebug.bundle ./.gem.20211110-7978-13vq5a7/byebug

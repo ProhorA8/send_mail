@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'byebug/commands/pry'
 class UserMailer < ApplicationMailer
   def welcome_email

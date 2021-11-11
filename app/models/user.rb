@@ -1,7 +1,9 @@
-class User < ApplicationRecord
-  validates :code, presence: true, uniqueness: true, length: {maximum: 35}
+# frozen_string_literal: true
 
-  validates :email, length: {maximum: 255}, uniqueness: true
+class User < ApplicationRecord
+  validates :code, presence: true, uniqueness: true, length: { maximum: 35 }
+
+  validates :email, length: { maximum: 255 }, presence: true, uniqueness: true
   validates :email, format: /\A[a-zA-Z0-9\-_.]+@[a-zA-Z0-9\-_.]+\z/
 
   validates :entity, presence: true

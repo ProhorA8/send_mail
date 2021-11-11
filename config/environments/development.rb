@@ -1,4 +1,7 @@
+# frozen_string_literal: true
+
 Rails.application.configure do
+  config.factory_bot.definition_file_paths = ['custom/factories']
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on
@@ -51,7 +54,7 @@ Rails.application.configure do
   # number of complex assets.
   config.assets.debug = true
 
-  # Suppress logger output for asset requests.
+  # Suppress logger output for asset controllers.
   config.assets.quiet = true
 
   # Raises error for missing translations
